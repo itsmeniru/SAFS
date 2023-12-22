@@ -1,0 +1,132 @@
+*{
+    
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+nav{
+    
+    background: rgb(211 210 210) !important;
+    transition: all 0.4s ease-in-out;
+    z-index:999;
+}
+nav a{
+    color:white;
+}
+nav.sticky{
+    background:#ff9800  !important;
+}
+nav li a:hover{
+   
+     transition: all 0.5s ease;
+}
+nav li:hover{
+    
+   border-bottom:1px solid #ff9800;
+     transition: all 0.5s ease;
+}
+nav .logo{
+    font-size:27px;
+}
+nav .logo span{
+    color:#ff9800;
+    font-weight:bold;
+   
+}
+nav.sticky .logo span{
+color:white;
+font-weight:normal;
+}
+nav.sticky li a:hover{
+    color:white;
+    font-weight:normal;
+}
+ nav.sticky li:hover{
+    border-bottom: none;
+}
+.parallax-container{
+    background:#000000cf;
+}
+::-webkit-scrollbar {
+    width: .2em;
+}
+::-webkit-scrollbar-button {
+    background: #FFC107
+}
+::-webkit-scrollbar-track-piece {
+    background: #FFC107
+}
+::-webkit-scrollbar-thumb {
+    background: #FFC107
+}
+
+.modal{
+   
+    box-shadow:3px 0px #FF9800;
+    
+}
+blockquote {
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid #FF9800;
+}
+tr:nth-child(even) {
+    background-color: #ff9f121f;
+  }
+  h5.highlight{
+  font-weight:bolder;
+      padding:10px;
+      border-left:2px solid #FF9800;
+      border-bottom:4px solid #FF9800;
+  }
+  p.empty{
+      text-align:center;
+      background:#ff98003d;
+      padding:5px;
+  }
+  table th,td{
+     white-space: nowrap;
+     text-align: center;
+  }
+     td.date{
+      color:#ff9800;
+      font-size:11px;
+  
+  }
+  table a{
+    color:#ff9800;
+  }
+  span.highlight{
+      color:#dedede;
+      background:#adadad;
+      padding:5px;
+  }
+  span.num_date{
+      background:#e0d8d8;
+      padding:2px;
+  }
+  h5 i{
+      vertical-align: middle;
+  }
+  .card-title i{
+    vertical-align: middle;
+  }
+  table td a i{
+    vertical-align:middle;
+  }
+  span.id{
+    float:right;
+    font-size:20px;
+    font-weight:100;
+    color:#757171;
+    
+  }
+  span.remain{
+    background:green;
+    color:white;
+    padding:2px;
+  }
+  span.end{
+    background:red;
+    color:white;
+    padding:2px;
+  }

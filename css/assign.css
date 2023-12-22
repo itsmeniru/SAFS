@@ -1,0 +1,133 @@
+body{
+  background:#fbfbfb;
+}
+#admis{
+  margin-top:80px;
+  width:100%;
+ position:absolute;
+}
+#admis .btn{
+  background:#ff9a05 !important;
+
+}
+#admis input[type="submit"]{
+  color:white;
+
+}
+tr:nth-child(odd){
+  background:#f4f2f2cf;
+}
+#admis form{
+  
+  padding:10px;
+  box-shadow:10px 20px 20px #c3c3c3f5;
+}
+table, th, td {
+  text-align:center;
+border: 1px solid white;
+border-collapse: collapse;
+}
+th, td {
+background-color: #ededed8f;
+
+}
+a{
+  color:#FF9800;
+}
+.deadline{
+  float:right;
+  
+}
+#admis p span{
+  
+margin:0px 15px;
+  }
+  #admis p{
+      color:#727272;
+    }
+    .alert-msg{
+      background: #ff980042;
+      font-size:15px;
+      text-align:center;
+      color:#403d3d !important;
+    }
+    .nametext{
+      white-space: nowrap;
+    }
+    #profile-bdy{
+      margin-top:55px;
+      position:absolute;
+      padding:20px;
+      width:100%;
+      
+      background:#f9f9f9;
+      
+    }
+    
+    .btn{
+      background:#fea118 !important;
+    }
+    .joined{
+      color:#8d8d8d;
+      font-size:10px;
+      font-family:cursive
+    }
+    .bio-text{
+      color:#5b5b5b;
+      font-family:cursive;
+    }
+    .teal {
+      background-color: #ffffff38 !important;
+      
+  }
+  p.activities{
+    color:black;
+    font-size:16px;
+
+  }
+  p.activities i{
+    vertical-align:middle;
+    font-size:21px;
+  }
+  p.activities a{
+    
+   box-shadow:10px 10px 100px #FFC107;
+    
+  }
+  a.dateformat{
+    background:#FF9800;
+  color:white !important;
+  }
+  .feedback_submit{
+    display:flex;
+  }
+  h4.latest{
+    padding:10px;
+    border:none;
+    box-shadow:5px 5px #ff9800;
+  }
+  p>span{
+    margin:0px 15px;
+  }
+  .page-footer {
+   
+    background-color: #131212 !important;
+  }
+  footer li{
+    list-style: none;
+  }
+  span.light{
+    background:#8b8780;
+    padding:5px;
+    color:white;
+    
+    
+  }span.bar{
+    color:#FF9800;
+  }
+  span.empty,td.empty {
+    color: #8b8989;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: cursive;
+}
